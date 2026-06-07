@@ -33,5 +33,4 @@ Rung 1: Start/Stop/Sensor seal-in circuit
 - Q0 seal-in contact in parallel with I0
 
 ## Author
-Dilan — Process & Chemical Engineer transitioning into 
-Industrial Automation Engineering
+Dilan — Automation Engineer
