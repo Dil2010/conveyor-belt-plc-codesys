@@ -45,16 +45,13 @@ END_VAR
 ## Screenshots
 
 ### Factory I/O Scene
-![Factory IO Scene]
-
-
-
+![Factory IO Scene](Coveyor%201.png)
 
 ### Ladder Logic (CODESYS)
-![Ladder Logic]
+![Ladder Logic](Coveyor%202.jpg)
 
 ### Modbus I/O Mapping
-![IO Mapping]
+![IO Mapping](Coveyor%203.png)
 
 ## Author
 Dilan — Automation Engineer
