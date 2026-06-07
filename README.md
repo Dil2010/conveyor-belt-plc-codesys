@@ -31,6 +31,30 @@ connected to Factory I/O via Modbus TCP/IP protocol.
 Rung 1: Start/Stop/Sensor seal-in circuit
 - I0 (Start) in series with I1 (Stop) and I2 (Sensor)
 - Q0 seal-in contact in parallel with I0
+PROGRAM PLC_PRG
+VAR
+    // STATION INPUTS
+    I0 AT %IX0.0:BOOL; // START
+    I1 AT %IX0.1:BOOL; // STOP
+    I2 AT %IX0.2:BOOL; // SENSOR
+
+    // STATION OUTPUTS
+    Q0 AT %QX0.0:BOOL; // CONVEYOR
+END_VAR
+
+## Screenshots
+
+### Factory I/O Scene
+![Factory IO Scene]
+
+
+
+
+### Ladder Logic (CODESYS)
+![Ladder Logic]
+
+### Modbus I/O Mapping
+![IO Mapping]
 
 ## Author
 Dilan — Automation Engineer
